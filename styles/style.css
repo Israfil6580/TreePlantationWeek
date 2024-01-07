@@ -1,3 +1,104 @@
-body {
-    background-color: rgb(91, 226, 226);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul li>a {
+    text-decoration: none;
+}
+
+header,
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    height: 80vh;
+}
+
+.header-col {
+    width: 50%;
+}
+
+.header-col>h1 {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    margin: 20px 0;
+}
+
+.header-col div>p {
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-col div>a {
+    border: 0;
+    padding: 10px 26px;
+    background-color: rgb(146, 58, 227);
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+div ul li a>img {
+    height: 16px;
+    width: auto;
+}
+
+.header-col ul>li {
+    margin-bottom: 7px;
+}
+
+/* header end */
+.discount-col {
+    width: 50%;
+}
+
+.discount-col>h1 {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+.discount-col>span {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.discount-col>p {
+    text-decoration: underline;
+}
+
+.discount-col p>span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.discount-col>a {
+    text-decoration: none;
+    padding: 10px 26px;
+    background-color: rgb(146, 58, 227);
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
 }
